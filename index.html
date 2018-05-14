@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>H!-O Organic Meals</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/shop-homepage.css" rel="stylesheet">
+
+  <!--  jQuery -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">H!-O <small>Organic Meals</small></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"><i>Just HEAT me UP before you eat!</i>
+                <span class="sr-only">(current)</span>
+              </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-lg-3">
+
+        <img src="./img/logo.png" height="12%" class="mt-4" />
+        <br />
+
+        <h5 class="my-4">A glimpse of nutrition facts that encompasses our meal.</h5>
+        <div class="list-group">
+          <a href="#" class="list-group-item" data-toggle="modal" data-target="#carbohydrates">Carbohydrates</a>
+          <a href="#" class="list-group-item" data-toggle="modal" data-target="#calories">Calories</a>
+          <a href="#" class="list-group-item" data-toggle="modal" data-target="#sugar">Sugar</a>
+          <a href="#" class="list-group-item" data-toggle="modal" data-target="#fat">Fat</a>
+          <a href="#" class="list-group-item" data-toggle="modal" data-target="#protein">Protein</a>
+        </div>
+
+        <img src='./img/sideBar.png' class="gambarSamping" />
+
+        <!-- <div id="sideBar">
+            <h4 class="text-center">Addressed to Organic Foodies</h4>
+            <p class="text-center mt-3 mb-2">
+              Delivered to your doorstep anytime, anywhere.
+              <br />
+              No subscription commitment.
+            </p>
+          </div> -->
+
+      </div>
+      <!-- /.col-lg-3 -->
+
+
+      <div class="col-lg-9">
+
+        <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <img class="d-block img-fluid" src="./img/banner1.png" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block img-fluid" src="./img/banner2.png" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block img-fluid" src="./img/banner3.png" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <form id="order">
+
+          <div class="row">
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="#"><img class="card-img-top mt-3" src="./img/menu1.png" alt=""></a>
+                <div class="card-body">
+                  <h4 class="card-title text-center">
+                    <a href="#">Brekkie</a>
+                  </h4>
+                  <h5 class="text-center">125 K <span id="perPax">/ pax</span></h5>
+                  <p class="card-text mt-3">This meal is calibrated to leave you satisfied, and best of all, lean. This meal type presents low carbohydrates, a selection of fibrous greens, plus a proud serving of protein making it a worthy meal. a couple of consuming these meals
+                    will encourage a stronger digestive health and a resilient heart.</p>
+                </div>
+                <ul class="list-group list-group-flush keterangan">
+                  <li class="list-group-item nutritions">
+                    <div class="row">
+                      <div class="col-8 text-left font-weight-bold">Calories</div>
+                      <div class="col-4 text-left">397</div>
+                    </div>
+                  </li>
+                  <li class="list-group-item nutritions">
+                    <div class="row">
+                      <div class="col-8 text-left font-weight-bold">Carbs</div>
+                      <div class="col-4 text-left">19</div>
+                    </div>
+                  </li>
+                  <li class="list-group-item nutritions">
+                    <div class="row">
+                      <div class="col-8 text-left font-weight-bold">Protein</div>
+                      <div class="col-4 text-left">47</div>
+                    </div>
+                  </li>
+                  <li class="list-group-item nutritions">
+                    <div class="row">
+                      <div class="col-8 text-left font-weight-bold">Fibre</div>
+                      <div class="col-4 text-left">5</div>
+                    </div>
+                  </li>
+                  <li class="list-group-item nutritions">
+                    <div class="row">
+                      <div class="col-8 text-left font-weight-bold">Fats</div>
+                      <div class="col-4 text-left">15</div>
+                    </div>
+                  </li>
+                  <li class="list-group-item nutritions">
+                    <div class="row">
+                      <div class="col-8 text-left font-weight-bold">Sugar</div>
+                      <div class="col-4 text-left">3</div>
+                    </div>
+                  </li>
+                  <li class="list-group-item nutritions">
+                    <div class="row">
+                      <div class="col-8 text-left font-weight-bold">Sodium</div>
+                      <div class="col-4 text-left">1.6</div>
+                    </div>
+                  </li>
+                </ul>
+                <div class="card-footer kaki">
+                  <select class="form-control" id="produk1">
+                    <option value="">Pilih...</option>
+                    <option value="1">1 pax</option>
+                    <option value="2">2 pax</option>
+                    <option value="3">3 pax</option>
+                    <option value="4">4 pax</option>
+                    <option value="5">5 pax</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="#"><img class="card-img-top mt-3" src="./img/menu2.png" alt=""></a>
+                <div class="card-body">
+                  <h4 class="card-title text-center">
+                    <a href="#">Lunchie</a>
+                  </h4>
+                  <h5 class="text-center">110 K <span id="perPax">/ pax</span></h5>
+                  <p class="card-text mt-3">This meal is calibrating for high energy released, this meal type includes ample amounts of carbohydrates in recipes of all sorts, stimulating your taste buds and building your stamina. Matching that is a side of fresh fibre and a fistful
+                    of protein to achieve optimal health and strength.
+                  </p>
+                </div>
+                <ul class="list-group list-group-flush keterangan">
+                  <li class="list-group-item nutritions">
+                    <div class="row">
+                      <div class="col-8 text-left font-weight-bold">Calories</div>
+                      <div class="col-4 text-left">497</div>
+                    </div>
+                  </li>
+                  <li class="list-group-item nutritions">
+                    <div class="row">
+                      <div class="col-8 text-left font-weight-bold">Carbs</div>
+                      <div class="col-4 text-left">21</div>
+                    </div>
+                  </li>
+                  <li class="list-group-item nutritions">
+                    <div class="row">
+                      <div class="col-8 text-left font-weight-bold">Protein</div>
+                      <div class="col-4 text-left">47</div>
+                    </div>
+                  </li>
+                  <li class="list-group-item nutritions">
+                    <div class="row">
+                      <div class="col-8 text-left font-weight-bold">Fibre</div>
+                      <div class="col-4 text-left">5</div>
+                    </div>
+                  </li>
+                  <li class="list-group-item nutritions">
+                    <div class="row">
+                      <div class="col-8 text-left font-weight-bold">Fats</div>
+                      <div class="col-4 text-left">15</div>
+                    </div>
+                  </li>
+                  <li class="list-group-item nutritions">
+                    <div class="row">
+                      <div class="col-8 text-left font-weight-bold">Sugar</div>
+                      <div class="col-4 text-left">3</div>
+                    </div>
+                  </li>
+                  <li class="list-group-item nutritions">
+                    <div class="row">
+                      <div class="col-8 text-left font-weight-bold">Sodium</div>
+                      <div class="col-4 text-left">1.6</div>
+                    </div>
+                  </li>
+                </ul>
+                <div class="card-footer kaki">
+                  <select class="form-control" id="produk2">
+                    <option value="">Pilih...</option>
+                    <option value="1">1 pax</option>
+                    <option value="2">2 pax</option>
+                    <option value="3">3 pax</option>
+                    <option value="4">4 pax</option>
+                    <option value="5">5 pax</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="#"><img class="card-img-top mt-3" src="./img/menu3.png" alt=""></a>
+                <div class="card-body">
+                  <h4 class="card-title text-center">
+                    <a href="#">Din Din</a>
+                  </h4>
+                  <h5 class="text-center">105 K <span id="perPax">/ pax</span></h5>
+                  <p class="card-text mt-3">Calibrated to energize you back from all the energy burnt after all day activities. It presents with low calories but high in proteins that will leave you with full and happy tummy without concern of the ample amounts of fats that is
+                    not necessarily needed in your body.
+                  </p>
+                </div>
+                <ul class="list-group list-group-flush keterangan">
+                  <li class="list-group-item nutritions">
+                    <div class="row">
+                      <div class="col-8 text-left font-weight-bold">Calories</div>
+                      <div class="col-4 text-left">474</div>
+                    </div>
+                  </li>
+                  <li class="list-group-item nutritions">
+                    <div class="row">
+                      <div class="col-8 text-left font-weight-bold">Carbs</div>
+                      <div class="col-4 text-left">19</div>
+                    </div>
+                  </li>
+                  <li class="list-group-item nutritions">
+                    <div class="row">
+                      <div class="col-8 text-left font-weight-bold">Protein</div>
+                      <div class="col-4 text-left">52</div>
+                    </div>
+                  </li>
+                  <li class="list-group-item nutritions">
+                    <div class="row">
+                      <div class="col-8 text-left font-weight-bold">Fibre</div>
+                      <div class="col-4 text-left">5</div>
+                    </div>
+                  </li>
+                  <li class="list-group-item nutritions">
+                    <div class="row">
+                      <div class="col-8 text-left font-weight-bold">Fats</div>
+                      <div class="col-4 text-left">15</div>
+                    </div>
+                  </li>
+                  <li class="list-group-item nutritions">
+                    <div class="row">
+                      <div class="col-8 text-left font-weight-bold">Sugar</div>
+                      <div class="col-4 text-left">2.5</div>
+                    </div>
+                  </li>
+                  <li class="list-group-item nutritions">
+                    <div class="row">
+                      <div class="col-8 text-left font-weight-bold">Sodium</div>
+                      <div class="col-4 text-left">1.4</div>
+                    </div>
+                  </li>
+                </ul>
+                <div class="card-footer kaki">
+                  <select class="form-control" id="produk3">
+                    <option value="">Pilih...</option>
+                    <option value="1">1 pax</option>
+                    <option value="2">2 pax</option>
+                    <option value="3">3 pax</option>
+                    <option value="4">4 pax</option>
+                    <option value="5">5 pax</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- /.row -->
+
+          <div class="mt-2 mb-5">
+            <input type="submit" class="btn btn-primary btn-lg btn-block tombolKonfirm" value="Konfirmasi Pesanan">
+          </div>
+
+        </form>
+
+      </div>
+      <!-- /.col-lg-9 -->
+
+
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+
+  <!-- MODALS -->
+  <div class="modal fade keteranganNutrisi" id="carbohydrates" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Carbohydrates</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <small>
+            The dietary guidelines recommend that carbs provide 45 to 65 percent of your daily calorie intake. So if you eat a 2000-calorie diet, you should aim for about 225 to 325 grams of carbs per day. But if you need to lose weight, you will get much faster results eating around 50 to 150 grams of carbs. In fact, a popular alternative called the low-carb diet has been shown to be much more effective for weight loss than the high-carb diet that has been recommended for the past few decades. This diet restricts your intake of carbohydrates like sugars and starches (breads, pasta, etc.) and replaces them with protein, fat and healthy vegetables. Studies show that low-carb diets reduce your appetite and make you eat fewer calories and lose weight pretty much effortlessly, as long as you manage to keep the carbs down. In studies where low-carb and low-fat diets are compared, the researchers need to actively restrict calories in the low-fat groups to make the results comparable, but the low-carb groups still usually win. Low-carb diets also have benefits that go way beyond just weight loss. They lower blood sugar, blood pressure and triglycerides. They raise HDL (the good) and improve the pattern of LDL (the bad) cholesterol. Low-carb diets cause more weight loss and improve health more than the calorie restricted, low-fat diet still recommended by many people. This is pretty much a scientific fact at this point.
+
+            Thus, if you simply remove the unhealthiest carb sources from your diet, refined wheat and added sugars, then you'll be well on your way to improved health. However, to enjoy the full metabolic benefits of low-carbohydrate diets, you also need to restrict other carb sources.
+          </small>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade keteranganNutrisi" id="calories" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Calories</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <small>
+            Understanding how many calories your body needs can help you manage your weight. Eating more calories than you burn causes you to gain weight, while eating too few brings about weight loss. Overeating at one meal can cause an excessive surge in insulin and then a rapid drop in blood sugar, which creates cravings for sugar and carbohydrates, according to a report from National Public Radio. This cycle may lead to weight gain. Eating too many calories at once can also change your stomach’s natural ability to feel fullness and may cause it to learn to empty more quickly, making you feel hungry more often. According to the U.S. Department of Health and Human Services 2010 Dietary Guidelines, the typical woman needs about 2,000 calories per day, and the typical man 2,500 calories per day. If you consume three meals per day, your meals should contain 650 to 700 calories for a woman or 800 to 850 calories for a man. Snacking between meals can be a healthy way to stem hunger, as long as you keep your calorie intake to a modest level. If you choose two 200-calorie snacks daily, meals should contain between 450 and 500 calories for women and 600 and 650 calories for men.
+          </small>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade keteranganNutrisi" id="sugar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Sugar</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <small>
+            Added sugar is the single worst ingredient in the modern diet. It provides calories with no added nutrients and can damage your metabolism in the long run. Eating too much sugar is linked to weight gain and various diseases like obesity, type II diabetes and heart disease. But how much is too much? Can you eat a little bit of sugar each day without harm, or should you avoid it as much as possible? It is very important to make the distinction between added sugars and sugars that occur naturally in foods like fruits and vegetables. These are healthy foods that contain water, fiber and various micronutrients. The naturally occurring sugars are absolutely fine. However, added sugars are those that are added to foods. The most common added sugars are regular table sugar (sucrose) or high fructose corn syrup. If you want to lose weight and optimize your health, then you should do your best to avoid foods that contain added sugars.
+          </small>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade keteranganNutrisi" id="fat" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Fat</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <small>
+            Everything you need to know about the dangers of consuming a diet that’s high in fat can be summarized in one sentence. The health scare surrounding saturated fat and cholesterol was overblown. Research now indicates that as much as 20 to 35 percent of your calories should come from fats. Not only do the fat-filled meals keep you full, they also burn calories. Researchers from Georgia Southern University found that eating a high-protein, high-fat snack increases your resting calorie burn (think of this as your metabolism) for up to 3.5 hours. Just as important, eating fat has been shown to: Help protect and run your immune system, allow good production of testosterone and estrogen, play an essential role with nutrient absorption (think important vitamins like D and E), help all of the cells in your body work as intended. When it comes to understanding fat, your options can be broken down into two main groups: saturated and unsaturated fats. (Yes, there are other specific sub-types of fat, but you can understand most of what you need by focusing on these two.) Both of them have a role in your diet, and both possess a variety of benefits.
+          </small>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade keteranganNutrisi" id="protein" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Protein</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <small>
+            Proteins are the main building blocks of the body. They're used to make muscles, tendons, organs and skin. Proteins are also used to make enzymes, hormones, neurotransmitters and various tiny molecules that serve important functions. Without protein, life as we know it would not be possible. Proteins are made out of smaller molecules called amino acids, which are linked together like beads on a string. The linked amino acids form long protein chains, which are then folded into complex shapes. Some of these amino acids can be produced by the body, while we must get others from the diet. The ones we can not produce and must get from our foods are called the "essential" amino acids. Protein is not just about quantity. It's also about quality. Generally speaking, animal protein provides all the essential amino acids in the right ratio for us to make full use of them (only makes sense, since animal tissues are similar to our own tissues). If you're eating animal products (like meat, fish, eggs, or dairy) every day, then you're probably already doing pretty well, protein-wise. If you don't eat animal foods, then it is a bit more challenging to get all the protein and essential amino acids that your body needs (good article on this here). Most people don't really need protein supplements, but they can be useful for athletes and bodybuilders. The merits of Protein: Protein can help you lose weight (and prevent you from gaining it in the first place) and more protein can help you gain muscle and strength.
+          </small>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container text-center">
+      <a class="whatsapp m-0" href="">Copyright &copy; 2018 Vizta Dana</a>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      $('#order').submit(function(x) {
+        x.preventDefault();
+
+        var produk1 = $('#produk1').val();
+        var produk2 = $('#produk2').val();
+        var produk3 = $('#produk3').val();
+
+        var total = (produk1 * 125000) + (produk2 * 110000) + (produk3 * 105000);
+
+        //  Thousands Separator
+        const thousandSeparator = (x) => {
+          return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+        }
+        total = thousandSeparator(total);
+
+        // Message WA
+        var urlencodedtext = encodeURIComponent("Halo *H!-O Organic Meals*, pesanan saya adalah sebagai berikut: \n \n" + "Brekkie: " + "*" + produk1 + "*" + " pax \n" + "Lunchie: " + "*" + produk2 + "*" + " pax \n" + "Din Din: " + "*" +
+          produk3 + "*" + " pax \n \n" + "Total Rp. " + total + ",-")
+
+        // Kirim WA
+        var whatsappphonenumber = 6281277378844; // Vizta Dana
+        var whatsapp_url = "https://api.whatsapp.com/send?phone=" + whatsappphonenumber + "&text=" + urlencodedtext;
+        window.open(whatsapp_url, '_blank');
+      });
+
+      $('.whatsapp').on("click", function(x) {
+        x.preventDefault();
+        // Message WA
+        var urlencodedtext = encodeURIComponent("Halo Vizta, saya ingin informasi lebih lanjut mengenai ...");
+        // Kirim WA
+        var whatsappphonenumber = 6281277378844; // Vizta Dana
+        var whatsapp_url = "https://api.whatsapp.com/send?phone=" + whatsappphonenumber + "&text=" + urlencodedtext;
+        window.open(whatsapp_url, '_blank');
+      });
+
+    });
+  </script>
+
+</body>
+
+</html>

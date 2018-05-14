@@ -1,0 +1,72 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+  background: #ADA996;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+a {
+  color: green;
+}
+
+a:hover {
+  color: lightgreen;
+}
+
+.tombolKonfirm {
+  background-color: green;
+  color: #f2f2f2;
+  border-color: green;
+}
+
+.tombolKonfirm:hover {
+  background-color: lightgreen;
+  color: grey;
+  border-color: lightgreen;
+}
+
+#sideBar {
+  width: 100%;
+  /* height: 100px; */
+  border-radius: 3px;
+  background-color: #f2f2f2;
+  margin-top: 2em;
+  margin-bottom: -165px;
+  padding: 20px;
+}
+
+.gambarSamping {
+  width: 100%;
+  margin-top: 2em;
+  border-radius: 10px;
+}
+
+#perPax {
+  font-size: 12px;
+}
+
+.nutritions {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 12px;
+}
+
+.kaki {
+  border-top: none;
+}
+
+.keteranganNutrisi {
+  font-size: 15px
+}
